@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+//light-theme
+$main-color: #00b7ff;
+$main-color-font: #000000;
+
+a{
+    text-decoration: none;
+    color: $main-color-font;
+}

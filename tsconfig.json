@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        //кодировка итоговых файлов
+        "target": "es5",
+        //удалять коментарии 
+        "removeComments": true,
+
+        //карта зависимостей, наверное
+        "sourceMap": true,
+        //файл на выходе
+        "outFile": "js/main.js",
+        // не компилируется файл js
+        "noEmitOnError": true,
+    },
+    //компилируются файлы, что здесь указаны, важнее, чем exclude
+    "files":[
+        "ts/app.ts",
+    ],
+    //исключение папок
+    "exclude":[
+        "wwwroot",
+        "node_modules"
+    ]
+}
